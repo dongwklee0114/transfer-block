@@ -1,0 +1,461 @@
+#wrap {
+    min-width: 320px;
+    overflow: hidden;
+}
+
+.clickable_area {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.clickable_area .mask {
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 24px;
+    font-weight: 500;
+    display: block;
+    color: #fff;
+    text-align: center;
+    background: transparent;
+    cursor: pointer;
+}
+
+.separator {
+    width: 20px;
+    margin: 0 auto 12px;
+    border-top: 2px solid #222;
+}
+
+.vmid {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.container_fixed {
+    max-width: 956px;
+    width: 96%;
+    margin: 0 auto;
+}
+
+.cell img {
+    display: block;
+}
+
+.cells {
+    border: 1px solid #dfdfdf;
+}
+
+.cell-title {
+    line-height: 1.5;
+    margin-bottom: 28px;
+}
+
+.cells h4 {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    margin: 31px auto 12px;
+}
+
+.cells p {
+    text-align: center;
+    font-size: 14px;
+    color: #989898;
+}
+
+.title-cell {
+    position: relative;
+    overflow: hidden;
+    margin-left: 0;
+    border: 20px solid #f0f1f2;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.title-cell-mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    text-align: center;
+    background: #fff;
+    color: #222;
+    line-height: 2;
+}
+
+#title-cell-txt1 {
+    font-size: 32px;
+}
+
+.cell-box {
+    position: relative;
+}
+
+.cell:nth-child(3n-2) {
+    margin-left: 0;
+}
+
+.cell:nth-child(3n) {
+    margin-right: 0;
+}
+
+.cell .mask {
+    visibility: visible;
+    color: transparent;
+}
+
+.cell:hover .mask {
+    color: #fff;
+    background: rgba(0, 0, 0, .45);
+}
+
+.cell-separator {
+    border: 0;
+    border-radius: 100em;
+    height: 2px;
+    background-color: #fff;
+    width: 32px;
+    margin: 1em auto;
+}
+
+.cell-mask .cell-name {
+    font-size: 14px;
+}
+
+.cell-mask .cell-title {
+    font-size: 18px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding: 0 22px 7px;
+    line-height: 1.5;
+}
+
+.cell-caption {
+    display: none;
+    padding: .25em .5em .5em;
+    line-height: 1.5;
+    font-size: 14px;
+}
+
+.cell-caption .cell-name {
+    font-size: 16px;
+}
+
+.cell-caption .cell-title {
+    width: 100%;
+}
+
+.title-cell, .cell {
+    display: block;
+    float: left;
+    width: 25%;
+    padding-right: 3px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.cell:nth-child(n+6) {
+    margin-top: 4px;
+}
+
+#cell-2, #cell-6 {
+    right: -1px
+}
+
+#cell-3, #cell-7 {
+    right: -2px
+}
+
+#cell-4, #cell-8 {
+    right: -3px
+}
+
+#cell-section .section-title h3 {
+    font-size: 30px;
+}
+
+.title-cell img, .cell img {
+    display: block;
+}
+
+.cells {
+    border: 1px solid #dfdfdf;
+}
+
+.cell-title {
+    line-height: 1.5;
+    margin-bottom: 28px;
+}
+
+.cells h4 {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    margin: 31px auto 12px;
+}
+
+.cells p {
+    text-align: center;
+    font-size: 14px;
+    color: #989898;
+}
+
+.title-cell {
+    position: relative;
+    overflow: hidden;
+    margin-left: 0;
+    border: 20px solid #f0f1f2;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.title-cell-mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    text-align: center;
+    background: #fff;
+    color: #222;
+    line-height: 2;
+}
+
+#title-cell-txt1 {
+    font-size: 32px;
+}
+
+.cell-box {
+    position: relative;
+}
+
+.cell:nth-child(3n-2) {
+    margin-left: 0;
+}
+
+.cell:nth-child(3n) {
+    margin-right: 0;
+}
+
+.cell .mask {
+    visibility: visible;
+    color: transparent;
+}
+
+.cell:hover .mask {
+    color: #fff;
+    background: rgba(0, 0, 0, .45);
+}
+
+.cell-separator {
+    border: 0;
+    border-radius: 100em;
+    height: 2px;
+    background-color: #fff;
+    width: 32px;
+    margin: 1em auto;
+}
+
+.cell-mask .cell-name {
+    font-size: 14px;
+}
+
+.cell-mask .cell-title {
+    font-size: 18px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding: 0 22px 7px;
+    line-height: 1.5;
+}
+
+.cell-caption {
+    display: none;
+    padding: .25em .5em .5em;
+    line-height: 1.5;
+    font-size: 14px;
+}
+
+.cell-caption .cell-name {
+    font-size: 16px;
+}
+
+.cell-caption .cell-title {
+    width: 100%;
+}
+
+@media (max-width: 767px) {
+    .cells {
+        border: 0;
+    }
+    .cells h4 {
+        margin-top: 0;
+        font-size: 18px;
+    }
+    .gridholder {
+        padding-bottom: 100%;
+    }
+    .cell-vmid {
+        position: relative;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+    .cell-title {
+        position: absolute;
+        margin-bottom: 0;
+        top: 0;
+        width: 98.0095%;
+        height: 100%;
+        border: 2px solid #dfdfdf;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    #cell-section .separator {
+        display: block;
+    }
+    .cell-vmid {
+        position: relative;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+    #cell-0 {
+        float: left;
+        width: 33.333%;
+        line-height: 1.5;
+        position: relative;
+    }
+    .cell {
+        width: 33.333%;
+        padding: 0;
+        right: 0;
+        left: 0;
+        margin: 0;
+    }
+    #cell-3, #cell-4, #cell-5 {
+        margin: 6px 0;
+    }
+    #cell-0, #cell-3, #cell-6 {
+        padding-right: 4px;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    #cell-1, #cell-4, #cell-7 {
+        padding-right: 2px;
+        padding-left: 2px;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    #cell-2, #cell-5, #cell-8 {
+        padding-left: 4px;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    .cell:nth-child(n+6) {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 543px) {
+    div#cell-0 {
+        width: 100%;
+        float: none;
+        padding: 0;
+    }
+    .gridholder {
+        padding: 0;
+    }
+    .cell-vmid {
+        position: static;
+        top: auto;
+        transform: none;
+    }
+    .cells h4 {
+        margin: 20px auto 8px;
+    }
+    .separator {
+        margin-bottom: 8px;
+    }
+    .cells p {
+        margin-bottom: 24px;
+    }
+    .cell-title {
+        width: 100%;
+        position: relative;
+        border: 0;
+    }
+    .cells {
+        padding-bottom: 24px;
+    }
+    .cells h4 {
+        margin: 20px auto 8px;
+    }
+    .cells p {
+        margin-bottom: 24px;
+    }
+    .cell {
+        width: 50%;
+    }
+    #cell-section .vmid {
+        top: 0;
+        transform: none;
+        padding: 8px 10px;
+        text-align: left;
+        background-color: #fff;
+    }
+    .cell-vmid {
+        position: static;
+        top: auto;
+        transform: none;
+    }
+    .mask.cell-mask {
+        position: relative;
+        color: #222;
+        height: auto;
+    }
+    #cell-1, #cell-2, #cell-3, #cell-4, #cell-5, #cell-6 {
+        margin: 0 0 8px;
+        padding: 0;
+    }
+    #cell-7, #cell-8 {
+        margin: 0;
+        padding: 0;
+    }
+    #cell-1.cell, #cell-3.cell, #cell-5.cell, #cell-7.cell {
+        padding-right: 4px;
+    }
+    #cell-2.cell, #cell-4.cell, #cell-6.cell, #cell-8.cell {
+        padding-left: 4px;
+    }
+    .cell:hover .mask {
+        background: transparent;
+        color: #222;
+    }
+    .cell-mask .cell-title {
+        padding: 0;
+        margin-bottom: 4px;
+        font-size: 12px;
+    }
+    .cell-mask .cell-name {
+        font-size: 12px;
+        color: #989898;
+    }
+    .cell-box {
+        border: 1px solid #dfdfdf;
+    }
+}
